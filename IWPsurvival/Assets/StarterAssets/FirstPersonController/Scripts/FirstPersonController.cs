@@ -192,6 +192,7 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
+				Debug.Log("Player is moving");
 			}
 
 			// move the player
