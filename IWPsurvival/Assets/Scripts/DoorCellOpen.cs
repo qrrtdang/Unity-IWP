@@ -25,18 +25,18 @@ public class DoorCellOpen : MonoBehaviour
             ActionText.SetActive(true);
             Debug.Log("NearDoor");
         }
-        //if (Input.GetButtonDown("E"))
-        //{
-        //    if (TheDistance <= 3)
-        //    {
-        //        this.GetComponent<BoxCollider>().enabled = false;
-        //        ActionDisplay.SetActive(false);
-        //        ActionText.SetActive(false);
-        //        TheDoor.GetComponent<Animation>().Play("FirstDoorOpenAnim");
-        //        creaksound.Play();
-        //        Debug.Log("DoorOpened");
-        //    }
-        //}
+        if (Input.GetButtonDown("Interact"))
+        {
+            if (TheDistance <= 3)
+            {
+                this.GetComponent<BoxCollider>().enabled = false;
+                ActionDisplay.SetActive(false);
+                ActionText.SetActive(false);
+                TheDoor.GetComponent<Animation>().Play("FirstDoorOpenAnim");
+                creaksound.Play();
+                Debug.Log("DoorOpened");
+            }
+        }
     }
 
     
