@@ -11,6 +11,7 @@ public class DoorCellOpen : MonoBehaviour
     public GameObject ActionText;
     public GameObject TheDoor;
     public AudioSource creaksound;
+    public GameObject ExtraCross;
 
     void Update()
     {
@@ -21,6 +22,7 @@ public class DoorCellOpen : MonoBehaviour
     {
         if (TheDistance <= 3)
         {
+            ExtraCross.SetActive(true);
             ActionDisplay.SetActive(true);
             ActionText.SetActive(true);
             Debug.Log("NearDoor");
@@ -37,11 +39,19 @@ public class DoorCellOpen : MonoBehaviour
                 Debug.Log("DoorOpened");
             }
         }
+        if (TheDistance >= 1.5)
+        {
+            ExtraCross.SetActive(false);
+            ActionDisplay.SetActive(false);
+            ActionText.SetActive(false);
+
+        }
     }
 
     
     void OnMouseExit()
     {
+        ExtraCross.SetActive(false);
         ActionDisplay.SetActive(false);
         ActionText.SetActive(false);
     }
