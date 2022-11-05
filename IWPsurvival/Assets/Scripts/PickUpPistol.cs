@@ -12,6 +12,7 @@ public class PickUpPistol : MonoBehaviour
     public GameObject FakePistol;
     public GameObject RealPistol;
     public GameObject ExtraCross;
+    public GameObject JumpTrigger;
 
     void Update()
     {
@@ -38,6 +39,7 @@ public class PickUpPistol : MonoBehaviour
                 FakePistol.SetActive(false);
                 RealPistol.SetActive(true);
                 Debug.Log("GotPistol");
+                JumpTrigger.SetActive(true);
             }
         }
         if (TheDistance >= 1.5)

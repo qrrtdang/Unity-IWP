@@ -58,26 +58,19 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Sequences\BFirstTrigger.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\Scripts\FlameAnimations.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
-    <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Sequences\AOpening.cs" />
-    <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\DoorCellOpen.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\Scripts\PlayerCasting.cs" />
-    <Compile Include="Assets\Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\FlashLight.cs" />
+    <Compile Include="Assets\Scripts\PickUpPistol.cs" />
+    <Compile Include="Assets\Scripts\PlayerCasting.cs" />
+    <Compile Include="Assets\True_Horror_Creatures\Horror_creature6_v1.0\Script\THC6_ctrl.cs" />
+    <Compile Include="Assets\Scripts\Sequences\BZJumpTrigger.cs" />
+    <Compile Include="Assets\Scripts\FirePistol.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
-    <None Include="Assets\StarterAssets\license.txt" />
+    <None Include="Assets\True_Horror_Creatures\Horror_creature6_v1.0\THC6_readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
