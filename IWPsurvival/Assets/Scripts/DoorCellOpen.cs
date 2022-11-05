@@ -12,6 +12,7 @@ public class DoorCellOpen : MonoBehaviour
     public GameObject TheDoor;
     public AudioSource creaksound;
     public GameObject ExtraCross;
+    //public GameObject Test;
 
     void Update()
     {
