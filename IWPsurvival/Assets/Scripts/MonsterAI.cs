@@ -6,7 +6,7 @@ public class MonsterAI : MonoBehaviour
 {
     public GameObject thePlayer;
     public GameObject theEnemy;
-    public float enemySpeed = 0.01f;
+    public float enemySpeed = 0.001f;
     public bool attackTrigger;
     public bool isAttacking;
 
@@ -34,15 +34,7 @@ public class MonsterAI : MonoBehaviour
             StartCoroutine(InflictDamage());
             Debug.Log("arach is attacking");
         }
-        else if(MonsterDeath.EnemyHealth <=0)
-        {
-            enemySpeed = 0;
-            theEnemy.GetComponent<Animation>().Stop("arach_armature_walk");
-            theEnemy.GetComponent<Animation>().Play("arach_armature_death2");
-            theEnemy.GetComponent<BoxCollider>().enabled = false;
-            attackTrigger = false;
-            Debug.Log("arach is dead fr");
-        }
+        
 
 
     }
@@ -55,9 +47,14 @@ public class MonsterAI : MonoBehaviour
 
     void OnTriggerExit()
     {
-        attackTrigger = false;
+        StartCoroutine(waitforanim());
     }
 
+    IEnumerator waitforanim()
+    {
+        yield return new WaitForSeconds(1.0f);
+        attackTrigger = false;
+    }
 
 
     IEnumerator InflictDamage()

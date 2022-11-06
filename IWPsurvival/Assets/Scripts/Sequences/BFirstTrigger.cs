@@ -11,6 +11,7 @@ public class BFirstTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        this.GetComponent<BoxCollider>().enabled = false;
         StartCoroutine(ScenePlayer());
     }
 
@@ -23,6 +24,6 @@ public class BFirstTrigger : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        this.GetComponent<BoxCollider>().enabled = false;
+        
     }
 }

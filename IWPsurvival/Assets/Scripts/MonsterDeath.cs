@@ -18,6 +18,8 @@ public class MonsterDeath : MonoBehaviour
     {
         if(EnemyHealth<= 0 && StatusCheck == 0)
         {
+            this.GetComponent<MonsterAI>().enabled = false;
+            this.GetComponent<BoxCollider>().enabled = false;
             StatusCheck = 2;
             Enemy.GetComponent<Animation>().Stop("arach_armature_walk");
             Enemy.GetComponent<Animation>().Play("arach_armature_death2");
