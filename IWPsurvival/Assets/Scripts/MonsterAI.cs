@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class MonsterAI : MonoBehaviour
 {
     public GameObject thePlayer;
     public GameObject theEnemy;
+    private NavMeshAgent enemynav;
+    public Transform playertarget;
     public float enemySpeed = 0.001f;
     public bool attackTrigger;
     public bool isAttacking;
 
-    
 
-    
+
+    void Start()
+    {
+        enemynav = GetComponent<NavMeshAgent>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -23,7 +29,8 @@ public class MonsterAI : MonoBehaviour
         {
             enemySpeed = 0.01f;
             theEnemy.GetComponent<Animation>().Play("arach_armature_walk");
-            transform.position = Vector3.MoveTowards(transform.position, thePlayer.transform.position, enemySpeed);
+            //transform.position = Vector3.MoveTowards(transform.position, thePlayer.transform.position, enemySpeed);
+            enemynav.SetDestination(playertarget.position);
             Debug.Log("arach is not attacking");
         }
         else if(attackTrigger == true && isAttacking == false)
