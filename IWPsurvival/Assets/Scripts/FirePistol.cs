@@ -9,7 +9,8 @@ public class FirePistol : MonoBehaviour
     public GameObject GunLight;
     public AudioSource GunFire;
     public bool IsFiring = false;
-
+    public float TargetDistance;
+    public int DamageAmount = 5;
 
     // Update is called once per frame
     void Update()
@@ -26,7 +27,13 @@ public class FirePistol : MonoBehaviour
 
     IEnumerator FiringPistol()
     {
+        RaycastHit Shot;
         IsFiring = true;
+        if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward),out Shot))
+        {
+            TargetDistance = Shot.distance;
+            Shot.transform.SendMessage("DamageMonster", DamageAmount, SendMessageOptions.DontRequireReceiver);
+        }
         TheGun.GetComponent<Animation>().Play("PistolShot");
         MuzzleFlash.SetActive(true);
         GunLight.SetActive(true);
