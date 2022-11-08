@@ -9,6 +9,7 @@ public class GlobalHealth : MonoBehaviour
     public static int currentHealth = 20;
     public int internalHealth;
 
+
     // Update is called once per frame
     void Update()
     {
@@ -16,6 +17,7 @@ public class GlobalHealth : MonoBehaviour
         if(currentHealth<=0)
         {
             SceneManager.LoadScene(1);
+            Debug.Log("Player is DEAD");
         }
     }
 }

@@ -16,6 +16,9 @@ public class MonsterAI : MonoBehaviour
     public AudioSource hurtSound2;
     public AudioSource hurtSound3;
     public int hurtGen;
+    public GameObject hurtflash;
+    public GameObject BlackScreen;
+   
 
 
     void Start()
@@ -45,7 +48,11 @@ public class MonsterAI : MonoBehaviour
             Debug.Log("arach is attacking");
         }
         
-
+        if(GlobalHealth.currentHealth<=0)
+        {
+            BlackScreen.SetActive(true);
+            //thePlayer.SetActive(false);
+        }
 
     }
 
@@ -69,6 +76,7 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator InflictDamage()
     {
+        
         isAttacking = true;
         if (hurtGen == 1)
         {
@@ -82,10 +90,14 @@ public class MonsterAI : MonoBehaviour
         {
             hurtSound3.Play();
         }
-        yield return new WaitForSeconds(1.1f);
-        GlobalHealth.currentHealth -= 5;
-        hurtGen = Random.Range(1, 4);
         
+        hurtflash.SetActive(true);
+        yield return new WaitForSeconds(1.6f);
+        hurtflash.SetActive(false);
+
+        yield return new WaitForSeconds(1.1f);
+        hurtGen = Random.Range(1, 4);
+        GlobalHealth.currentHealth -= 5;
         yield return new WaitForSeconds(0.2f);
         isAttacking = false;
     }

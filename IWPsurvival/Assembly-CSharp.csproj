@@ -57,20 +57,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\MonsterDeath.cs" />
+    <Compile Include="Assets\Scripts\GlobalHealth.cs" />
     <Compile Include="Assets\Scripts\Sequences\BFirstTrigger.cs" />
     <Compile Include="Assets\Scripts\FlameAnimations.cs" />
     <Compile Include="Assets\Scripts\Sequences\BZJumpTrigger.cs" />
     <Compile Include="Assets\Scripts\Sequences\AOpening.cs" />
     <Compile Include="Assets\True_Horror_Creatures\Horror_creature6_v1.0\Script\THC6_ctrl.cs" />
+    <Compile Include="Assets\Scripts\MonsterAI.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\FirePistol.cs" />
     <Compile Include="Assets\Scripts\DoorCellOpen.cs" />
     <Compile Include="Assets\Scripts\FlashLight.cs" />
     <Compile Include="Assets\Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
-    <Compile Include="Assets\Scripts\MonsterDeath.cs" />
-    <Compile Include="Assets\Scripts\MonsterAI.cs" />
-    <Compile Include="Assets\Scripts\GlobalHealth.cs" />
+    <Compile Include="Assets\Scripts\AmmoPickup.cs" />
+    <Compile Include="Assets\Scripts\GlobalAmmo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\True_Horror_Creatures\Horror_creature6_v1.0\THC6_readme.txt" />
