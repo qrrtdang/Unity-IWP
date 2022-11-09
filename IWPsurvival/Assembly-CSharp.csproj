@@ -56,7 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GlobalAmmo.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\AmmoPickup.cs" />
     <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\GlobalHealth.cs" />
     <Compile Include="Assets\Scripts\Sequences\BFirstTrigger.cs" />
@@ -71,8 +73,7 @@
     <Compile Include="Assets\Scripts\FlashLight.cs" />
     <Compile Include="Assets\Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
-    <Compile Include="Assets\Scripts\AmmoPickup.cs" />
-    <Compile Include="Assets\Scripts\GlobalAmmo.cs" />
+    <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\True_Horror_Creatures\Horror_creature6_v1.0\THC6_readme.txt" />
