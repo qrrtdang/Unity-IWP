@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class MonsterAI : MonoBehaviour
 {
@@ -51,6 +52,7 @@ public class MonsterAI : MonoBehaviour
         if(GlobalHealth.currentHealth<=0)
         {
             BlackScreen.SetActive(true);
+            SceneManager.LoadScene(1);
             //thePlayer.SetActive(false);
         }
 
@@ -90,14 +92,17 @@ public class MonsterAI : MonoBehaviour
         {
             hurtSound3.Play();
         }
-        
+
+        yield return new WaitForSeconds(0.5f);
+        GlobalHealth.currentHealth -= 5;
+
         hurtflash.SetActive(true);
         yield return new WaitForSeconds(1.6f);
         hurtflash.SetActive(false);
 
         yield return new WaitForSeconds(1.1f);
         hurtGen = Random.Range(1, 4);
-        GlobalHealth.currentHealth -= 5;
+        
         yield return new WaitForSeconds(0.2f);
         isAttacking = false;
     }
