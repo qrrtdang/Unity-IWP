@@ -8,6 +8,7 @@ public class FirePistol : MonoBehaviour
     public GameObject MuzzleFlash;
     public GameObject GunLight;
     public AudioSource GunFire;
+    public GameObject Blood;
     public bool IsFiring = false;
     public float TargetDistance;
     public int DamageAmount = 5;
@@ -34,6 +35,12 @@ public class FirePistol : MonoBehaviour
         {
             TargetDistance = Shot.distance;
             Shot.transform.SendMessage("DamageMonster", DamageAmount, SendMessageOptions.DontRequireReceiver);
+        }
+        if(Shot.transform.tag=="Enemy")
+        {
+            TargetDistance = Shot.distance;
+            Instantiate(Blood, Shot.point, Quaternion.FromToRotation(Vector3.up, Shot.normal));
+            Debug.Log("Enemy is shot");
         }
         TheGun.GetComponent<Animation>().Play("PistolShot");
         MuzzleFlash.SetActive(true);
