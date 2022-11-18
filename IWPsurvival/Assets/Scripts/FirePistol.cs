@@ -6,6 +6,7 @@ public class FirePistol : MonoBehaviour
 {
     public GameObject TheGun;
     public GameObject MuzzleFlash;
+    public GameObject MuzzleFlash2;
     public GameObject GunLight;
     public AudioSource GunFire;
     public GameObject Blood;
@@ -44,9 +45,11 @@ public class FirePistol : MonoBehaviour
         }
         TheGun.GetComponent<Animation>().Play("PistolShot");
         MuzzleFlash.SetActive(true);
+        MuzzleFlash2.SetActive(true);
         GunLight.SetActive(true);
         MuzzleFlash.GetComponent<Animation>().Play("MuzzleAnim");
         GunLight.GetComponent<Animation>().Play("LightVanish");
+        MuzzleFlash2.GetComponent<Animation>().Play("Muzzlelightvanish");
         GunFire.Play();
         yield return new WaitForSeconds(0.3f);
         IsFiring = false;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MonsterDeath : MonoBehaviour
 {
-    public static int EnemyHealth = 20;
+    public int EnemyHealth;
     public GameObject Enemy;
     public int StatusCheck;
     //public AudioSource JumpMusic;
