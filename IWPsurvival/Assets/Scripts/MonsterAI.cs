@@ -16,6 +16,7 @@ public class MonsterAI : MonoBehaviour
     public AudioSource hurtSound1;
     public AudioSource hurtSound2;
     public AudioSource hurtSound3;
+    public AudioSource stab;
     public int hurtGen;
     public GameObject hurtflash;
     public GameObject BlackScreen;
@@ -93,10 +94,12 @@ public class MonsterAI : MonoBehaviour
             hurtSound3.Play();
         }
 
+
         yield return new WaitForSeconds(0.5f);
         GlobalHealth.currentHealth -= 5;
 
         hurtflash.SetActive(true);
+        stab.Play();
         yield return new WaitForSeconds(1.6f);
         hurtflash.SetActive(false);
 
