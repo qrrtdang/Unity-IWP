@@ -72,7 +72,7 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator waitforanim()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(0.5f);
         attackTrigger = false;
     }
 
@@ -96,7 +96,7 @@ public class MonsterAI : MonoBehaviour
 
 
         yield return new WaitForSeconds(0.5f);
-        GlobalHealth.currentHealth -= 5;
+        GlobalHealth.currentHealth -= 20;
 
         hurtflash.SetActive(true);
         stab.Play();

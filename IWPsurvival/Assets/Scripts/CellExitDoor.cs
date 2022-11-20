@@ -15,6 +15,7 @@ public class CellExitDoor : MonoBehaviour
     public AudioSource creaksound;
     public GameObject ExtraCross;
     public GameObject Fadeout;
+    public int SceneNumber;
     //public GameObject Test;
 
     void Update()
@@ -41,7 +42,7 @@ public class CellExitDoor : MonoBehaviour
                 TheDoor.GetComponent<Animation>().Play("FirstDoorOpenAnim");
                 creaksound.Play();
                 Fadeout.SetActive(true);
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(SceneNumber);
                 Debug.Log("DoorOpened");
             }
         }
