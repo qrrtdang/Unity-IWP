@@ -8071,6 +8071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ammobox (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9011231333872531269, guid: 55d8980de76d1314386a03b3fdd8142b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55d8980de76d1314386a03b3fdd8142b, type: 3}
 --- !u!1001 &1290428285
@@ -8143,6 +8147,10 @@ PrefabInstance:
     - target: {fileID: 9011231333872531269, guid: 55d8980de76d1314386a03b3fdd8142b, type: 3}
       propertyPath: m_Name
       value: ammobox (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9011231333872531269, guid: 55d8980de76d1314386a03b3fdd8142b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55d8980de76d1314386a03b3fdd8142b, type: 3}
@@ -9666,7 +9674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1450369297
 Light:
   m_ObjectHideFlags: 0
@@ -13093,6 +13101,10 @@ PrefabInstance:
     - target: {fileID: 9011231333872531269, guid: 55d8980de76d1314386a03b3fdd8142b, type: 3}
       propertyPath: m_Name
       value: ammobox (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9011231333872531269, guid: 55d8980de76d1314386a03b3fdd8142b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55d8980de76d1314386a03b3fdd8142b, type: 3}
