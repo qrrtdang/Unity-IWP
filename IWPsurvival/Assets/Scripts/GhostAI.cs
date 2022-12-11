@@ -20,6 +20,7 @@ public class GhostAI : MonoBehaviour
     public int hurtGen;
     public GameObject hurtflash;
     public GameObject BlackScreen;
+    public float enemyspeedmultiplier;
 
 
 
@@ -37,7 +38,7 @@ public class GhostAI : MonoBehaviour
         {
             enemySpeed = 0.01f;
             //theEnemy.GetComponent<Animation>().Play("arach_armature_walk");
-            transform.position = Vector3.MoveTowards(transform.position, thePlayer.transform.position, enemySpeed*10);
+            transform.position = Vector3.MoveTowards(transform.position, thePlayer.transform.position, enemySpeed*enemyspeedmultiplier);
             //enemynav.SetDestination(playertarget.position);
             Debug.Log("ghost is not attacking");
         }

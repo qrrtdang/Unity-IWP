@@ -15,11 +15,11 @@ C:/Users/Julius/Documents/GitHub/Unity-IWP/IWPsurvival
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62755
+56264
 Successfully changed project path to: C:/Users/Julius/Documents/GitHub/Unity-IWP/IWPsurvival
 C:/Users/Julius/Documents/GitHub/Unity-IWP/IWPsurvival
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,428 +35,860 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008750 seconds.
+Registered in 0.002659 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.844 seconds
+- Completed reload, in  2.261 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007512 seconds.
+Registered in 0.006212 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.834 seconds
+- Completed reload, in  1.256 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1851 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.4 MB.
-System memory in use after: 178.5 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 2.488800 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.077700 ms MarkObjects: 2.100200 ms  DeleteObjects: 0.122700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Scene03.unity
-  artifactKey: Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900dff8c47c2955804658b1f86fe4d18') in 0.030008 seconds
-  Import took 0.034544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 279.062862 seconds.
-  path: Assets/Scenes/Scene03.unity
-  artifactKey: Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8990b794c3d6c54a0afeefe491f6b8') in 0.004496 seconds
-  Import took 0.017257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 166.332895 seconds.
-  path: Assets/Scenes/Scene03.unity
-  artifactKey: Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d8aee852705f70c80198c4a5f2682a') in 0.008114 seconds
-  Import took 0.015662 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004936 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.254 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.4 MB.
-System memory in use after: 178.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2340.
-Total: 3.895500 ms (FindLiveObjects: 0.506300 ms CreateObjectMapping: 0.194500 ms MarkObjects: 3.085900 ms  DeleteObjects: 0.106500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 408.801663 seconds.
-  path: Assets/Scenes/Scene03.unity
-  artifactKey: Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd66dbb1a9394a2f822e925b8990848') in 0.038309 seconds
-  Import took 0.041720 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004772 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1852 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 178.5 MB.
 System memory in use after: 178.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 2.095500 ms (FindLiveObjects: 0.158700 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.798600 ms  DeleteObjects: 0.074900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 2.212800 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.074900 ms MarkObjects: 1.850000 ms  DeleteObjects: 0.100300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 282.896589 seconds.
-  path: Assets/Scripts/EnemySpawnTrigger.cs
-  artifactKey: Guid(614db5e8768b67742938756f7b5477c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySpawnTrigger.cs using Guid(614db5e8768b67742938756f7b5477c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad07f9aff29796b0b9db3820059bfabb') in 0.039517 seconds
-  Import took 0.042130 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005666 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.5 MB.
-System memory in use after: 178.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2346.
-Total: 2.825400 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.361700 ms  DeleteObjects: 0.174000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004538 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.934 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.5 MB.
-System memory in use after: 178.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2349.
-Total: 2.093500 ms (FindLiveObjects: 0.148400 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.817800 ms  DeleteObjects: 0.074600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1017.190470 seconds.
-  path: Assets/Scenes/Scene03.unity
-  artifactKey: Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f438a6ddcafd0f8e41c6b958239743') in 0.045077 seconds
-  Import took 0.048724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 453.517048 seconds.
-  path: Assets/Scenes/Scene03.unity
-  artifactKey: Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ea41caa5a2ba02aac6aca6587f3df5') in 0.004646 seconds
-  Import took 0.011015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 151.457363 seconds.
-  path: Assets/Scripts/MonsterAI.cs
-  artifactKey: Guid(8afda4ac0c2ed3140b2903de198f0a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterAI.cs using Guid(8afda4ac0c2ed3140b2903de198f0a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026f16d5708ff436b656b5f045c21d4b') in 0.011623 seconds
-  Import took 0.015486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045274 seconds.
-  path: Assets/Scripts/MonsterAI.cs
-  artifactKey: Guid(8afda4ac0c2ed3140b2903de198f0a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterAI.cs using Guid(8afda4ac0c2ed3140b2903de198f0a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026f16d5708ff436b656b5f045c21d4b') in 0.005695 seconds
-  Import took 0.062099 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.136690 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2352.
-Total: 2.972500 ms (FindLiveObjects: 0.311300 ms CreateObjectMapping: 0.190300 ms MarkObjects: 2.368400 ms  DeleteObjects: 0.101100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.522064 seconds.
   path: Assets/Scripts/GhostAI.cs
   artifactKey: Guid(1fca4d4be2424074e8e34dbb009b3a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GhostAI.cs using Guid(1fca4d4be2424074e8e34dbb009b3a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05c2a97cab9165c7fb32dd0aa9526d0') in 0.007393 seconds
-  Import took 0.009981 seconds .
+Start importing Assets/Scripts/GhostAI.cs using Guid(1fca4d4be2424074e8e34dbb009b3a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a548f86e25d24631eeac8f2ab437bb') in 0.033764 seconds
+  Import took 0.036643 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.9 MB.
+System memory in use after: 141.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 2.219600 ms (FindLiveObjects: 0.193200 ms CreateObjectMapping: 0.087900 ms MarkObjects: 1.872100 ms  DeleteObjects: 0.065600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004195 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2356.
-Total: 2.278400 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.969200 ms  DeleteObjects: 0.076800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004476 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2359.
-Total: 2.166300 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.840300 ms  DeleteObjects: 0.077200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006202 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2362.
-Total: 2.165500 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.881600 ms  DeleteObjects: 0.072900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004525 seconds.
+Registered in 0.006015 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  1.020 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
+System memory in use before: 178.5 MB.
+System memory in use after: 178.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2365.
-Total: 1.963200 ms (FindLiveObjects: 0.140800 ms CreateObjectMapping: 0.047800 ms MarkObjects: 1.700900 ms  DeleteObjects: 0.072900 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 2.261400 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.087000 ms MarkObjects: 1.896100 ms  DeleteObjects: 0.079000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006036 seconds.
+Registered in 0.004317 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
+- Completed reload, in  0.938 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
+System memory in use before: 178.5 MB.
+System memory in use after: 178.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2368.
-Total: 2.395300 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.060400 ms MarkObjects: 2.074700 ms  DeleteObjects: 0.081200 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 1.940500 ms (FindLiveObjects: 0.168500 ms CreateObjectMapping: 0.053600 ms MarkObjects: 1.645800 ms  DeleteObjects: 0.071900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 529.108579 seconds.
+  Time since last request: 578.582514 seconds.
+  path: Assets/Scenes/Scene02.unity
+  artifactKey: Guid(29ddb39b3a7bf61449c7d76c785bed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene02.unity using Guid(29ddb39b3a7bf61449c7d76c785bed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d2b8a79bb43de8f7d68ac27dd6dedb') in 0.056651 seconds
+  Import took 0.060066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.960030 seconds.
   path: Assets/Scenes/Scene03.unity
   artifactKey: Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b076dc6ae4d44dcd63f2cace10e1572') in 0.079454 seconds
-  Import took 0.083074 seconds .
+Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86be7b1c820d8234a3816f82d2740ed3') in 0.008761 seconds
+  Import took 0.012635 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006667 seconds.
+Registered in 0.004185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.6 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 2.178300 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.065900 ms MarkObjects: 1.862300 ms  DeleteObjects: 0.078400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1864.873294 seconds.
+  path: Assets/Audio/yt5s.io - Quomodo Sedet Solo (Holy Thursday, Matins) (128 kbps).mp3
+  artifactKey: Guid(547b3681602b6d4429188b683bfd4f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/yt5s.io - Quomodo Sedet Solo (Holy Thursday, Matins) (128 kbps).mp3 using Guid(547b3681602b6d4429188b683bfd4f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31a0658ed6537d7829603dcfb5f4ac9') in 0.108591 seconds
+  Import took 0.113135 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.7 MB.
+System memory in use after: 181.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 2.007100 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.065100 ms MarkObjects: 1.668700 ms  DeleteObjects: 0.077700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.901296 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue
+  artifactKey: Guid(17c27e20023007d449dd7b0800582b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue using Guid(17c27e20023007d449dd7b0800582b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59b5797901b764d6e8086a2b19e0a89') in 0.009226 seconds
+  Import took 0.012318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934802 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue
+  artifactKey: Guid(a65595efa55dcf44d8dc717aed14475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue using Guid(a65595efa55dcf44d8dc717aed14475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601bae9291e4ce48b567f3e582cdc721') in 0.006262 seconds
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098121 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503.obj
+  artifactKey: Guid(afb850482359d5945a1080e0d3e46de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503.obj using Guid(afb850482359d5945a1080e0d3e46de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766a6dca899b93894f7aa20b0ae0af8a') in 0.126014 seconds
+  Import took 0.128812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_hair_n.png
+  artifactKey: Guid(fd46125daa8a86c4785b69c88780332f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_hair_n.png using Guid(fd46125daa8a86c4785b69c88780332f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0026b76a03f2e214bde57b825ce8a183') in 0.018647 seconds
+  Import took 0.021106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_hair_s.png
+  artifactKey: Guid(75f23df351e749340ba4cc29458c75d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_hair_s.png using Guid(75f23df351e749340ba4cc29458c75d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8da22c4e775135ae82d6e580be41f7') in 0.012214 seconds
+  Import took 0.014776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_n.png
+  artifactKey: Guid(e5a585c28f2a3aa4fae0c20a970c559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_n.png using Guid(e5a585c28f2a3aa4fae0c20a970c559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bc0c3cc29ee0d88de131d93b8192b6') in 0.022772 seconds
+  Import took 0.025731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_hair.png
+  artifactKey: Guid(69e4fface291172498459047ad1f5f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_hair.png using Guid(69e4fface291172498459047ad1f5f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9567644951099b31173c37235b00d0') in 0.025935 seconds
+  Import took 0.029322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_s.png
+  artifactKey: Guid(6bb2af781f0a623419a9a31dbddda3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640_s.png using Guid(6bb2af781f0a623419a9a31dbddda3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c39983647a8acc678850322c5db857') in 0.025935 seconds
+  Import took 0.028978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640.png
+  artifactKey: Guid(c29c605c1fd3d594a8abed33018059d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Blacksmith Statue/Blacksmith Statue/o0503_c2640.png using Guid(c29c605c1fd3d594a8abed33018059d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6eb4f8e1b37ab60017f2a9582d5cfe0') in 0.029449 seconds
+  Import took 0.032530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.043403 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls
+  artifactKey: Guid(d782b9ed780437b4caffba15b600f227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls using Guid(d782b9ed780437b4caffba15b600f227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4215144ce338a83822592213692ebf') in 0.006522 seconds
+  Import took 0.011034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.907860 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls
+  artifactKey: Guid(002c974a48d845e4db0d771a04c480b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls using Guid(002c974a48d845e4db0d771a04c480b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6902645fb251f8827271aa61c1b270c') in 0.007899 seconds
+  Import took 0.010864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001239 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls
+  artifactKey: Guid(002c974a48d845e4db0d771a04c480b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls using Guid(002c974a48d845e4db0d771a04c480b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6902645fb251f8827271aa61c1b270c') in 0.003889 seconds
+  Import took 0.007546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035434 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500.obj
+  artifactKey: Guid(3ba806fb10d538a478b1a7769697d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500.obj using Guid(3ba806fb10d538a478b1a7769697d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27182971e540a31212f13bab1db13823') in 0.040564 seconds
+  Import took 0.043403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_2_s.png
+  artifactKey: Guid(3944398c875886144890b88c7aeda1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_2_s.png using Guid(3944398c875886144890b88c7aeda1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65be4c11c2ad4f51d5dbbcd497e7304') in 0.009850 seconds
+  Import took 0.012854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_2_n.png
+  artifactKey: Guid(f4388d2baabbcab47a94d8f54d8660ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_2_n.png using Guid(f4388d2baabbcab47a94d8f54d8660ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645f99eb7d36c9d0a5880b6a6a893a46') in 0.012251 seconds
+  Import took 0.014831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_3_n.png
+  artifactKey: Guid(0b98110d77f0d7243867b54d4c96aa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_3_n.png using Guid(0b98110d77f0d7243867b54d4c96aa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce81a0d3f073adb3987bdae54ec57497') in 0.012769 seconds
+  Import took 0.015613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_weapon.png
+  artifactKey: Guid(92fa529d9e79401419a119a5fb94888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_weapon.png using Guid(92fa529d9e79401419a119a5fb94888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93acc23bb719d0b3704c43a12587247') in 0.010762 seconds
+  Import took 0.013921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_weapon_n.png
+  artifactKey: Guid(359bbcbe16ecdb34a9fa7368e848b13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_weapon_n.png using Guid(359bbcbe16ecdb34a9fa7368e848b13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ccbeba32f2b2fb3a642b1ddb131583') in 0.010147 seconds
+  Import took 0.013020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_1_n.png
+  artifactKey: Guid(fba11d585e6dae34dbe03bf0a9a09c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_1_n.png using Guid(fba11d585e6dae34dbe03bf0a9a09c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10be183c26210915a8c365af50e60eba') in 0.011822 seconds
+  Import took 0.014492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_3_s.png
+  artifactKey: Guid(09c7137ac3ec5dc49a70eb35c4f9afc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_3_s.png using Guid(09c7137ac3ec5dc49a70eb35c4f9afc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac2fd56fc3b2e33cde686ffd1338f82') in 0.009894 seconds
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_1_s.png
+  artifactKey: Guid(d38fbdbc4747c9b47b56edea2e930b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_1_s.png using Guid(d38fbdbc4747c9b47b56edea2e930b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ecd6971b6295554ec4055d4ed19070') in 0.011508 seconds
+  Import took 0.014706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_weapon_s.png
+  artifactKey: Guid(4a1a6c273e10c6b4cada860c2fe1cb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_weapon_s.png using Guid(4a1a6c273e10c6b4cada860c2fe1cb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4430c913dc400ead6b3c1cc4f826efed') in 0.011779 seconds
+  Import took 0.015400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_3.png
+  artifactKey: Guid(e1911a9c041148d49b1abc38471f3242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_3.png using Guid(e1911a9c041148d49b1abc38471f3242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bd0d3c869f3eaef2ff8be235fe6b6d') in 0.010486 seconds
+  Import took 0.014168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_1.png
+  artifactKey: Guid(b029f8a8f2309524f9b0b5c7b15f59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_1.png using Guid(b029f8a8f2309524f9b0b5c7b15f59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5874ff899ed5b4e58ac8f70b6561db77') in 0.013660 seconds
+  Import took 0.017231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_2.png
+  artifactKey: Guid(8571c7d3b61e5174bb7c5c595f45c374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mass of Souls/Mass of Souls/c3500_2.png using Guid(8571c7d3b61e5174bb7c5c595f45c374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623cc0820713ce2883314ab41cc013c1') in 0.012681 seconds
+  Import took 0.017211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.871218 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue
+  artifactKey: Guid(19731bb9778a3fc4697b39aaae6ffe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue using Guid(19731bb9778a3fc4697b39aaae6ffe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525c8028c44f799a30aee0eedc7b9329') in 0.008177 seconds
+  Import took 0.012374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.308449 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue
+  artifactKey: Guid(64d1b9d51882c244599418b7672ac193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue using Guid(64d1b9d51882c244599418b7672ac193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc70ccec38de78d90ff6324d5d12ced1') in 0.006619 seconds
+  Import took 0.009977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067580 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/m11_section.png
+  artifactKey: Guid(4dd2cdde0d97ae1499cf3f9ba69d1753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/m11_section.png using Guid(4dd2cdde0d97ae1499cf3f9ba69d1753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6dece76a6156e157a90b1cb832f8cf') in 0.043733 seconds
+  Import took 0.046787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/o1540.obj
+  artifactKey: Guid(e3d17b8c1aaa9bb41b3d1ffa3dbff04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/o1540.obj using Guid(e3d17b8c1aaa9bb41b3d1ffa3dbff04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc270708e8fe4b50282f4a31a429bfd') in 0.029130 seconds
+  Import took 0.031779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/m11_statue_02_n.png
+  artifactKey: Guid(a3fd57098c9847742bb07c0ae1489665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/m11_statue_02_n.png using Guid(a3fd57098c9847742bb07c0ae1489665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df32fa19fde0fc8691e76f5e147769fe') in 0.012614 seconds
+  Import took 0.015362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/m11_statue_02.png
+  artifactKey: Guid(93e4b8d2e21b9e54c8ef4e57571cda91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/m11_statue_02.png using Guid(93e4b8d2e21b9e54c8ef4e57571cda91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f675564d4c45d5f5fd39d16f5c23b785') in 0.012540 seconds
+  Import took 0.015690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/m11_section_n.png
+  artifactKey: Guid(cf48c5c47a0294e43a027a70e8de1c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls - Mother and Child Statue/Mother and Child Statue/m11_section_n.png using Guid(cf48c5c47a0294e43a027a70e8de1c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6648d5ff02d1ff054f707112502ece0') in 0.011009 seconds
+  Import took 0.014408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.259114 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka
+  artifactKey: Guid(c09496d9c77c0bc43a6e681f0947b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka using Guid(c09496d9c77c0bc43a6e681f0947b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4145c49c7e82055fe50d893245430fa8') in 0.008920 seconds
+  Import took 0.013603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001704 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka
+  artifactKey: Guid(c09496d9c77c0bc43a6e681f0947b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka using Guid(c09496d9c77c0bc43a6e681f0947b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4145c49c7e82055fe50d893245430fa8') in 0.004405 seconds
+  Import took 0.008319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928517 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka
+  artifactKey: Guid(1a49ef90d9d8d944b8264019adb5ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka using Guid(1a49ef90d9d8d944b8264019adb5ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9776a39cdf8bc2ff7fe2cb4104f7465a') in 0.006811 seconds
+  Import took 0.009916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001982 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka
+  artifactKey: Guid(1a49ef90d9d8d944b8264019adb5ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka using Guid(1a49ef90d9d8d944b8264019adb5ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9776a39cdf8bc2ff7fe2cb4104f7465a') in 0.003075 seconds
+  Import took 0.006630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081646 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170.dae
+  artifactKey: Guid(4c498f1a1b0c090438bb6f20c853073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170.dae using Guid(4c498f1a1b0c090438bb6f20c853073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586b87cfa23fb1cd96832a38b916c6d3') in 0.158189 seconds
+  Import took 0.161500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_n_s.png
+  artifactKey: Guid(85001a6f34a94d6459f202259a839df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_n_s.png using Guid(85001a6f34a94d6459f202259a839df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a90d3706dd32e5a9fb879fa012d81fd') in 0.010980 seconds
+  Import took 0.013716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_hairs_n_s.png
+  artifactKey: Guid(eaf256f5ea10f8744ae733fe88ad95fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_hairs_n_s.png using Guid(eaf256f5ea10f8744ae733fe88ad95fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa919f3b3eeb5e8d4cc4eac1287ed5a') in 0.010827 seconds
+  Import took 0.014103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_bell_n.png
+  artifactKey: Guid(190c960d0a56c1345ae5009986b771f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_bell_n.png using Guid(190c960d0a56c1345ae5009986b771f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5455082b75dc641ca5a06fb00f21c9') in 0.010396 seconds
+  Import took 0.013173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_veil_a.png
+  artifactKey: Guid(b5f50901888d17d42a1d2e8490f78943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_veil_a.png using Guid(b5f50901888d17d42a1d2e8490f78943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a80a88400f1f44088b4205730346bb6') in 0.013132 seconds
+  Import took 0.016123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_veil_n_s.png
+  artifactKey: Guid(1c7fda0bf2127354fbd250c2155a9acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_veil_n_s.png using Guid(1c7fda0bf2127354fbd250c2155a9acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797f9eb37c5147f09522943861c1fd4c') in 0.010392 seconds
+  Import took 0.013355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_eye_n.png
+  artifactKey: Guid(2d633a8453a30034f89a28fd1d66e95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_eye_n.png using Guid(2d633a8453a30034f89a28fd1d66e95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3e39bc08d864d0406d5cc8e110e1a2') in 0.011582 seconds
+  Import took 0.014583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_a.png
+  artifactKey: Guid(bec2489066d947b4ab0e8a9840a95406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_a.png using Guid(bec2489066d947b4ab0e8a9840a95406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21427af2f72e008c679b7c5434ea45c7') in 0.013823 seconds
+  Import took 0.017261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_hairs_a.png
+  artifactKey: Guid(a11786f6a6cba9c468c7e4037e9688b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_hairs_a.png using Guid(a11786f6a6cba9c468c7e4037e9688b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336d10fb2060e4b83985be15a4af5e62') in 0.010512 seconds
+  Import took 0.013734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_bell_a.png
+  artifactKey: Guid(e49ee64aeeb3e964791dc62947db7593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_bell_a.png using Guid(e49ee64aeeb3e964791dc62947db7593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9711e74582ed627a5ae80557e41e9949') in 0.010878 seconds
+  Import took 0.014114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_hairs_n.png
+  artifactKey: Guid(af4ffd417e731f24b944fc086ab0940b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_hairs_n.png using Guid(af4ffd417e731f24b944fc086ab0940b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36217571e05c10d429a9a90891ee119') in 0.010355 seconds
+  Import took 0.013371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_eye_r.png
+  artifactKey: Guid(c61fcec5230982b4d8fd1ad657e24729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_eye_r.png using Guid(c61fcec5230982b4d8fd1ad657e24729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eb4a9d25ebe9be47acdf4ff81ac9ab') in 0.013005 seconds
+  Import took 0.016672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170.obj
+  artifactKey: Guid(c6878c9fb37d8ff4592cfc349ee2c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170.obj using Guid(c6878c9fb37d8ff4592cfc349ee2c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a817ab82c7284fb7d38fdd84378b2ff0') in 0.114860 seconds
+  Import took 0.118725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_r.png
+  artifactKey: Guid(e7143befac331b9429da9389790cb208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_r.png using Guid(e7143befac331b9429da9389790cb208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4035f7060a449c981dfa465fc87386e9') in 0.012013 seconds
+  Import took 0.015663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_eye_a.png
+  artifactKey: Guid(ab82ba2d2290e794c903e89cabeec4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_eye_a.png using Guid(ab82ba2d2290e794c903e89cabeec4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fbea4665f05c6612de89ce2ce9d31b') in 0.013733 seconds
+  Import took 0.016719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_hairs_r.png
+  artifactKey: Guid(86a778faa73720746ab0897cfa8aac3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_hairs_r.png using Guid(86a778faa73720746ab0897cfa8aac3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d23a177110cd96e066061d68ea90be') in 0.011082 seconds
+  Import took 0.014032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_n.png
+  artifactKey: Guid(7c5c7cdb72006cf418c475dd1f202c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_n.png using Guid(7c5c7cdb72006cf418c475dd1f202c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0f31273ac745708475765b70cb01c1') in 0.013406 seconds
+  Import took 0.016717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_veil_n.png
+  artifactKey: Guid(02887665f9b4f5645ae08a22cda111d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_veil_n.png using Guid(02887665f9b4f5645ae08a22cda111d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1829b36e1df21734628ab6738021fa86') in 0.011797 seconds
+  Import took 0.015660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_bell_r.png
+  artifactKey: Guid(f7f1047ff81e019439d2dc0cd5ac87e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_bell_r.png using Guid(f7f1047ff81e019439d2dc0cd5ac87e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fa9b87c8fbb4db784a1b569eb2e9de') in 0.012553 seconds
+  Import took 0.015761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_bell_n_s.png
+  artifactKey: Guid(01086084ac6cd6a44990d4d9d87fbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_bell_n_s.png using Guid(01086084ac6cd6a44990d4d9d87fbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d17fcb9bab20c14c8df09554933fcda') in 0.014968 seconds
+  Import took 0.018918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_m.png
+  artifactKey: Guid(62a0e5ada17e3ce48a222ec673f84bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/PC Computer - Dark Souls III - Company Captain Yorshka/Company Captain Yorshka/c2170_m.png using Guid(62a0e5ada17e3ce48a222ec673f84bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3257d3ee258e73aa73f7d1a42ce8a954') in 0.011364 seconds
+  Import took 0.014520 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004517 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.134 seconds
+- Completed reload, in  0.940 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2371.
-Total: 3.040000 ms (FindLiveObjects: 0.332000 ms CreateObjectMapping: 0.147200 ms MarkObjects: 2.419500 ms  DeleteObjects: 0.140100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.303951 seconds.
-  path: Assets/Scenes/Scene03.unity
-  artifactKey: Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene03.unity using Guid(f0a0bf62e1090ba42b8a4723d3782e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c07a514f6cdde2cd2cf78cb8da16b3') in 0.021759 seconds
-  Import took 0.025432 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 2.994700 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.663300 ms  DeleteObjects: 0.088300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005270 seconds.
+Registered in 0.004411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
+- Completed reload, in  0.922 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2374.
-Total: 3.171600 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.762600 ms  DeleteObjects: 0.112400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2406.
+Total: 2.200100 ms (FindLiveObjects: 0.170100 ms CreateObjectMapping: 0.059900 ms MarkObjects: 1.887300 ms  DeleteObjects: 0.081800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 425.836746 seconds.
+  path: Assets/Scripts/LookAtPlayer.cs
+  artifactKey: Guid(4ba6b357e6e546b4fbea72a3885358ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LookAtPlayer.cs using Guid(4ba6b357e6e546b4fbea72a3885358ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b030ad1a1758857153fd41a441af721') in 0.008908 seconds
+  Import took 0.011590 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004475 seconds.
+Registered in 0.004301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2410.
+Total: 2.204800 ms (FindLiveObjects: 0.168300 ms CreateObjectMapping: 0.071600 ms MarkObjects: 1.877700 ms  DeleteObjects: 0.086200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2413.
+Total: 2.131700 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.060700 ms MarkObjects: 1.823500 ms  DeleteObjects: 0.078000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 2.305100 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.075900 ms MarkObjects: 1.944600 ms  DeleteObjects: 0.090800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007618 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  0.956 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2377.
-Total: 2.313100 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.978300 ms  DeleteObjects: 0.082100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2419.
+Total: 2.350900 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.053200 ms MarkObjects: 2.063500 ms  DeleteObjects: 0.082000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004333 seconds.
+Registered in 0.047331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2422.
+Total: 2.187500 ms (FindLiveObjects: 0.179700 ms CreateObjectMapping: 0.060200 ms MarkObjects: 1.853600 ms  DeleteObjects: 0.092800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 3.109100 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.741000 ms  DeleteObjects: 0.078000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2428.
+Total: 2.434600 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.045200 ms  DeleteObjects: 0.088100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004239 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
+- Completed reload, in  0.972 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 178.7 MB.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2380.
-Total: 3.456600 ms (FindLiveObjects: 0.198000 ms CreateObjectMapping: 0.094900 ms MarkObjects: 3.035000 ms  DeleteObjects: 0.127600 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 2.202200 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.061400 ms MarkObjects: 1.860100 ms  DeleteObjects: 0.080700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.0 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2434.
+Total: 2.030700 ms (FindLiveObjects: 0.156100 ms CreateObjectMapping: 0.050700 ms MarkObjects: 1.693800 ms  DeleteObjects: 0.129300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

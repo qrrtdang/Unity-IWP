@@ -1,0 +1,110 @@
+# Blender MTL File: 'None'
+# Material Count: 8
+
+newmtl assets_textures__00__bell
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 1.000000
+illum 2
+map_Kd c2170_bell_a.png
+map_Bump  c2170_bell_n.png
+map_Ks  c2170_bell_r.png
+
+newmtl assets_textures_eyes
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 1.000000
+illum 2
+map_Kd c2170_eye_a.png
+map_Bump  c2170_eye_n.png
+map_Ks  c2170_eye_r.png
+
+newmtl assets_textures_hair
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 0.000000
+illum 2
+map_Kd c2170_hairs_a.png
+map_Bump  c2170_n.png
+map_Ks  c2170_r.png
+map_d  c2170_hairs_a.png
+
+newmtl assets_textures_other
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 0.000000
+illum 2
+map_Kd c2170_a.png
+map_Bump  c2170_n.png
+map_Ks  c2170_r.png
+map_d  c2170_a.png
+
+newmtl assets_textures_scart
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 0.000000
+illum 2
+map_Kd c2170_a.png
+map_Bump  c2170_n.png
+map_Ks  c2170_r.png
+map_d  c2170_a.png
+
+newmtl assets_textures_skin
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 0.000000
+illum 2
+map_Kd c2170_a.png
+map_Bump  c2170_n.png
+map_Ks  c2170_r.png
+map_d  c2170_a.png
+
+newmtl assets_textures_veil
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 0.000000
+illum 2
+map_Kd c2170_veil_a.png
+map_Bump  c2170_veil_n.png
+map_d  c2170_veil_a.png
+
+newmtl assets_textures_veil_Cloth
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 0.000000
+illum 2
+map_Kd c2170_veil_a.png
+map_Bump  c2170_veil_n.png
+map_d  c2170_veil_a.png
