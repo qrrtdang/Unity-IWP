@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\EnemySpawnTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
+    <Compile Include="Assets\Scripts\GhostAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Textures\blender_textures_marmoset\tex\Notes.txt" />

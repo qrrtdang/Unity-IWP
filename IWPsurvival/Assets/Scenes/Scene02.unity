@@ -1271,6 +1271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnenytoSpawn: {fileID: 546248928}
   enemyspawnaudio: {fileID: 1722069496}
+  enemytodespawn: {fileID: 0}
+  despawn: 0
 --- !u!23 &262661518
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4335,6 +4337,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnenytoSpawn: {fileID: 1363607157}
   enemyspawnaudio: {fileID: 922005922}
+  enemytodespawn: {fileID: 0}
+  despawn: 0
 --- !u!65 &714659817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9674,7 +9678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1450369297
 Light:
   m_ObjectHideFlags: 0
@@ -11644,6 +11648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnenytoSpawn: {fileID: 1970382759}
   enemyspawnaudio: {fileID: 922005922}
+  enemytodespawn: {fileID: 0}
+  despawn: 0
 --- !u!4 &1788560968 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6548847455785738609, guid: 2a53920e24d53b149a89a9b4fa2da859, type: 3}
@@ -12350,6 +12356,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnenytoSpawn: {fileID: 1028659119}
   enemyspawnaudio: {fileID: 894901376}
+  enemytodespawn: {fileID: 0}
+  despawn: 0
 --- !u!1 &1886245328
 GameObject:
   m_ObjectHideFlags: 0
@@ -12538,6 +12546,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnenytoSpawn: {fileID: 7946313929455925657}
   enemyspawnaudio: {fileID: 1004762934}
+  enemytodespawn: {fileID: 0}
+  despawn: 0
 --- !u!23 &1893525341
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13297,6 +13307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnenytoSpawn: {fileID: 506246452}
   enemyspawnaudio: {fileID: 693295146}
+  enemytodespawn: {fileID: 0}
+  despawn: 0
 --- !u!1 &1996198116
 GameObject:
   m_ObjectHideFlags: 0
@@ -13358,6 +13370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnenytoSpawn: {fileID: 645521459}
   enemyspawnaudio: {fileID: 1004762934}
+  enemytodespawn: {fileID: 0}
+  despawn: 0
 --- !u!23 &1996198120
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13549,6 +13563,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnenytoSpawn: {fileID: 322221036}
   enemyspawnaudio: {fileID: 894901376}
+  enemytodespawn: {fileID: 0}
+  despawn: 0
 --- !u!65 &2009688567
 BoxCollider:
   m_ObjectHideFlags: 0
