@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GlobalHealth : MonoBehaviour
 {
 
-    public static int currentHealth = 500;
+    public static int currentHealth = 100;
     public int internalHealth;
     public GameObject HealthDisplay;
 
@@ -19,7 +19,7 @@ public class GlobalHealth : MonoBehaviour
         HealthDisplay.GetComponent<Text>().text = ""+ internalHealth;
         if(currentHealth<=0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(3);
             Debug.Log("Player is DEAD");
         }
     }

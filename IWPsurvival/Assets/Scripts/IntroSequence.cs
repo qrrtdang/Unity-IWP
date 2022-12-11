@@ -14,7 +14,7 @@ public class IntroSequence : MonoBehaviour
     IEnumerator LoadGame()
     {
         yield return new WaitForSeconds(3.5f);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
    
 }
