@@ -76,9 +76,10 @@
     <Compile Include="Assets\Scripts\DoorCellOpen.cs" />
     <Compile Include="Assets\Scripts\FlashLight.cs" />
     <Compile Include="Assets\Scripts\PickUpPistol.cs" />
+    <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
     <Compile Include="Assets\Scripts\EnemySpawnTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
-    <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
+    <Compile Include="Assets\Scripts\showText.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Textures\blender_textures_marmoset\tex\Notes.txt" />
