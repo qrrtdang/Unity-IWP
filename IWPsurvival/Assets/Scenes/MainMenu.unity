@@ -368,6 +368,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeOut: {fileID: 1485417287}
   loadText: {fileID: 399369141}
+  loadButton: {fileID: 2136272200}
+  loadInt: 0
 --- !u!4 &492777879
 Transform:
   m_ObjectHideFlags: 0
@@ -1863,7 +1865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2136272201
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1927,7 +1929,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2136272203}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 492777878}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: LoadGameButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2136272203
 MonoBehaviour:
   m_ObjectHideFlags: 0

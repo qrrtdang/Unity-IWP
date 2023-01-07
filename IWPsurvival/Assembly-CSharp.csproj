@@ -75,11 +75,18 @@
     <Compile Include="Assets\Scripts\FirePistol.cs" />
     <Compile Include="Assets\Scripts\DoorCellOpen.cs" />
     <Compile Include="Assets\Scripts\FlashLight.cs" />
+    <Compile Include="Assets\Scripts\showText.cs" />
     <Compile Include="Assets\Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
     <Compile Include="Assets\Scripts\EnemySpawnTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
-    <Compile Include="Assets\Scripts\showText.cs" />
+    <Compile Include="Assets\Scripts\SavingMech\Auto01.cs" />
+    <Compile Include="Assets\Scripts\SavingMech\Auto02.cs" />
+    <Compile Include="Assets\Scripts\SavingMech\LoadScript.cs" />
+    <Compile Include="Assets\Scripts\IntroSeq1.cs" />
+    <Compile Include="Assets\Scripts\Respawning\Respawn.cs" />
+    <Compile Include="Assets\Scripts\Respawning\globalScene.cs" />
+    <Compile Include="Assets\Scripts\Respawning\SceneEntered.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Textures\blender_textures_marmoset\tex\Notes.txt" />
