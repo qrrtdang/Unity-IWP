@@ -43,6 +43,10 @@ public class FirePistol : MonoBehaviour
             Instantiate(Blood, Shot.point, Quaternion.FromToRotation(Vector3.up, Shot.normal));
             Debug.Log("Enemy is shot");
         }
+        else
+        {
+            
+        }
         TheGun.GetComponent<Animation>().Play("PistolShot");
         MuzzleFlash.SetActive(true);
         MuzzleFlash2.SetActive(true);
