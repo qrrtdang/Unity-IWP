@@ -9,6 +9,7 @@ public class SceneEntered : MonoBehaviour
 
     void Start()
     {
+        sceneNumber = 0;
         sceneNumber = sceneNumber + sceneNumber1;
     }
 
