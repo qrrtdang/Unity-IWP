@@ -12,6 +12,7 @@ public class AmmoPickup : MonoBehaviour
     public GameObject ActionText;
     public GameObject ExtraCross;
     public GameObject AmmoDisplayBox;
+    public AudioSource ammoSFX;
 
     void Update()
     {
@@ -38,6 +39,7 @@ public class AmmoPickup : MonoBehaviour
                 gameObject.SetActive(false);
                 ExtraCross.SetActive(false);
                 AmmoDisplayBox.SetActive(true);
+                ammoSFX.Play();
                 GlobalAmmo.ammoCount += 7;
                 Debug.Log("GotAmmo");
                 

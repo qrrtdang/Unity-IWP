@@ -16,6 +16,7 @@ ScriptsOnlyBuild:
     - GhostAI
     - GlobalAmmo
     - GlobalHealth
+    - HealthPickUp
     - IntroSeq1
     - IntroSequence
     - LookAtPlayer
@@ -28,6 +29,7 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - Respawn
     - SceneEntered
+    - StalkerAttackingAI
     - showText
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
@@ -169,7 +171,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 5164}
+      Script: {instanceID: 5166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -337,7 +339,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 5212}
+      Script: {instanceID: 5214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -448,9 +450,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3922}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 5034}
     - Class: 114
-      Script: {instanceID: 5212}
+      Script: {instanceID: 5142}
+    - Class: 114
+      Script: {instanceID: 5214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -535,6 +539,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1828}
     - Class: 114
+      Script: {instanceID: 1974}
+    - Class: 114
       Script: {instanceID: 2158}
     - Class: 114
       Script: {instanceID: 2296}
@@ -557,9 +563,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4844}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 5142}
     - Class: 114
-      Script: {instanceID: 5212}
+      Script: {instanceID: 5214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -583,6 +589,113 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/scene4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1644}
+    - Class: 114
+      Script: {instanceID: 1670}
+    - Class: 114
+      Script: {instanceID: 1680}
+    - Class: 114
+      Script: {instanceID: 1738}
+    - Class: 114
+      Script: {instanceID: 1828}
+    - Class: 114
+      Script: {instanceID: 2158}
+    - Class: 114
+      Script: {instanceID: 2296}
+    - Class: 114
+      Script: {instanceID: 2436}
+    - Class: 114
+      Script: {instanceID: 2654}
+    - Class: 114
+      Script: {instanceID: 2980}
+    - Class: 114
+      Script: {instanceID: 3558}
+    - Class: 114
+      Script: {instanceID: 3572}
+    - Class: 114
+      Script: {instanceID: 3844}
+    - Class: 114
+      Script: {instanceID: 3942}
+    - Class: 114
+      Script: {instanceID: 5034}
+    - Class: 114
+      Script: {instanceID: 5142}
+    - Class: 114
+      Script: {instanceID: 5214}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -647,7 +760,7 @@ ScriptsOnlyBuild:
     className: IntroSequence
   - hash:
       serializedVersion: 2
-      Hash: 1e5dc79b5921e942cb3eb84ce2d5743f
+      Hash: f2c4109d0f28f702affdb5e7ae445d6a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AmmoPickup
@@ -1589,6 +1702,12 @@ ScriptsOnlyBuild:
     className: InputSystemObject
   - hash:
       serializedVersion: 2
+      Hash: d36527752c34549189e5cc797ff43330
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthPickUp
+  - hash:
+      serializedVersion: 2
       Hash: b5c3dbcb94925c8b595ad16a62b44788
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1680,4 +1799,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Scene02.unity
   - Assets/Scenes/Scene03.unity
   - Assets/Scenes/Intro 1.unity
+  - Assets/Scenes/scene4.unity
   playerPath: C:/Users/Julius/Documents/BetaBuild/IWPsurvival.exe

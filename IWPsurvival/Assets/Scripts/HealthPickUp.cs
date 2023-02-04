@@ -11,6 +11,7 @@ public class HealthPickUp : MonoBehaviour
     public GameObject ActionText;
     public GameObject ExtraCross;
     public GameObject AmmoDisplayBox;
+    public AudioSource healthSFX;
 
     void Update()
     {
@@ -37,6 +38,7 @@ public class HealthPickUp : MonoBehaviour
                 gameObject.SetActive(false);
                 ExtraCross.SetActive(false);
                 AmmoDisplayBox.SetActive(true);
+                healthSFX.Play();
                 if(GlobalHealth.currentHealth<=85)
                 {
                     GlobalHealth.currentHealth += 15;
