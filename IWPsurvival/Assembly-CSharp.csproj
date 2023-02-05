@@ -66,9 +66,11 @@
     <Compile Include="Assets\Scripts\SavingMech\Auto01.cs" />
     <Compile Include="Assets\Scripts\CellExitDoor.cs" />
     <Compile Include="Assets\Scripts\FlameAnimations.cs" />
+    <Compile Include="Assets\Scripts\BossDeath.cs" />
     <Compile Include="Assets\Scripts\Sequences\BZJumpTrigger.cs" />
     <Compile Include="Assets\Scripts\GhostAI.cs" />
     <Compile Include="Assets\Scripts\BossAI.cs" />
+    <Compile Include="Assets\Scripts\ActivateUI.cs" />
     <Compile Include="Assets\Scripts\Sequences\AOpening.cs" />
     <Compile Include="Assets\True_Horror_Creatures\Horror_creature6_v1.0\Script\THC6_ctrl.cs" />
     <Compile Include="Assets\Scripts\StalkerAI.cs" />
@@ -76,6 +78,7 @@
     <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MonsterAI.cs" />
     <Compile Include="Assets\Scripts\SavingMech\Auto02.cs" />
+    <Compile Include="Assets\Scripts\soundeffect.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\FirePistol.cs" />
     <Compile Include="Assets\Scripts\Respawning\Respawn.cs" />
@@ -92,9 +95,7 @@
     <Compile Include="Assets\Scripts\IntroSeq1.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
     <Compile Include="Assets\Scripts\SavingMech\LoadScript.cs" />
-    <Compile Include="Assets\Scripts\soundeffect.cs" />
-    <Compile Include="Assets\Scripts\BossDeath.cs" />
-    <Compile Include="Assets\Scripts\ActivateUI.cs" />
+    <Compile Include="Assets\Scripts\LastSceneQuitgamw.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Textures\blender_textures_marmoset\tex\Notes.txt" />

@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GlobalHealth : MonoBehaviour
 {
 
-    public static int currentHealth = 100000;
+    public static int currentHealth = 100;
     public int internalHealth;
     public GameObject HealthDisplay;
 
