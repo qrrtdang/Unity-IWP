@@ -182,7 +182,7 @@ public class BossAI : MonoBehaviour
                 if (RandomAttack == 2)
                 {
                     yield return new WaitForSeconds(0.1f);
-                    GlobalHealth.currentHealth -= 5;
+                    GlobalHealth.currentHealth -= 10;
 
                     hurtflash.SetActive(true);
                     stab.Play();
@@ -210,18 +210,18 @@ public class BossAI : MonoBehaviour
     IEnumerator InflictDamage3()
     {
         isAttacking = true;
-        if (hurtGen == 1)
-        {
-            hurtSound1.Play();
-        }
-        if (hurtGen == 2)
-        {
-            hurtSound2.Play();
-        }
-        if (hurtGen == 3)
-        {
-            hurtSound3.Play();
-        }
+        //if (hurtGen == 1)
+        //{
+        //    hurtSound1.Play();
+        //}
+        //if (hurtGen == 2)
+        //{
+        //    hurtSound2.Play();
+        //}
+        //if (hurtGen == 3)
+        //{
+        //    hurtSound3.Play();
+        //}
 
         yield return new WaitForSeconds(0.4f);
             if (isExit == false)
@@ -229,7 +229,7 @@ public class BossAI : MonoBehaviour
                 if (RandomAttack == 3)
                 {
                     yield return new WaitForSeconds(0.0f);
-                    GlobalHealth.currentHealth -= 5;
+                    GlobalHealth.currentHealth -= 8;
 
                     hurtflash.SetActive(true);
                     stab.Play();
@@ -259,18 +259,18 @@ public class BossAI : MonoBehaviour
     {
 
         isAttacking = true;
-        if (hurtGen == 1)
-        {
-            hurtSound1.Play();
-        }
-        if (hurtGen == 2)
-        {
-            hurtSound2.Play();
-        }
-        if (hurtGen == 3)
-        {
-            hurtSound3.Play();
-        }
+        //if (hurtGen == 1)
+        //{
+        //    hurtSound1.Play();
+        //}
+        //if (hurtGen == 2)
+        //{
+        //    hurtSound2.Play();
+        //}
+        //if (hurtGen == 3)
+        //{
+        //    hurtSound3.Play();
+        //}
 
         
             yield return new WaitForSeconds(1.4f);

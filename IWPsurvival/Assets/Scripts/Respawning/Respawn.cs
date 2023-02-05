@@ -28,5 +28,15 @@ public class Respawn : MonoBehaviour
             SceneManager.LoadScene(4);
             SceneEntered.sceneNumber = 0;
         }
+        else if (SceneEntered.sceneNumber == 5)
+        {
+            SceneManager.LoadScene(5);
+            SceneEntered.sceneNumber = 0;
+        }
+        else if (SceneEntered.sceneNumber == 7)
+        {
+            SceneManager.LoadScene(7);
+            SceneEntered.sceneNumber = 0;
+        }
     }
 }
